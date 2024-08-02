@@ -50,3 +50,21 @@ main {
 main .main-logo img {
     width: 36%;
 }
+
+main .main-input {
+    width: 36%;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+main .main-input .main-input-container {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+main .main-input .main-input-container input {
+    width: 70%;
+    height: 42px;
+    outline: none;
+    border: none;
+}
