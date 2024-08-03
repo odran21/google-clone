@@ -9,7 +9,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    width: 100vw;
     max-height: 68px;
 }
 header nav {
@@ -41,6 +40,7 @@ main {
     text-align: center;
     margin: 6% auto 0;
     min-width: 300px;
+    height: 76vh;
 }
 main .main-logo img {
     width: 30%;
@@ -117,4 +117,29 @@ main .main-button .main-button-container button {
 }
 main .main-button .main-button-container button:hover {
     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+main .paragraph {
+    margin: 20px;
+}
+main .paragraph p {
+    padding: 20px;
+}
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /*Esto es para que el footer se quede hasta el final de la pagina*/
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+}
+footer ul {
+    margin: 0 20px;
+    display: flex;
+}
+footer ul li {
+    margin: 6px
 }
